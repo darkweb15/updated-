@@ -1,0 +1,19 @@
+# Core scraping / enrichment
+playwright>=1.40        # Google Maps (JS-heavy) scraping
+httpx>=0.27             # fast HTTP for website enrichment
+beautifulsoup4>=4.12    # HTML parsing
+lxml>=5.0               # fast parser backend for bs4
+
+# Email verification (free: DNS/MX + optional SMTP probe)
+dnspython>=2.6
+
+# Domain / public-suffix handling (uses bundled snapshot, no network)
+tldextract>=5.1
+
+# Output
+pandas>=2.1
+openpyxl>=3.1
+
+# CLI UX + config
+rich>=13.7
+PyYAML>=6.0
